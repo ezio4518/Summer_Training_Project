@@ -7,8 +7,6 @@ This research project develops a hybrid approach for classifying different stage
 - [Methodology](#️-methodology)
 - [Results](#-results)
 - [Key Findings](#-key-findings)
-- [Project Structure](#-project-structure)
-- [Installation & Usage](#-installation--usage)
 - [Acknowledgements](#-acknowledgements)
 
 ## 📁 Dataset
@@ -81,56 +79,7 @@ Performance was assessed using comprehensive metrics:
 - **PCA** provided better results than autoencoders for this specific classification task
 - **Naive Bayes** showed the poorest performance, suggesting it's not well-suited for this complex classification task
 
-## 📂 Project Structure
 
-```
-.
-├── data/
-│   ├── train/
-│   └── test/
-├── models/
-│   ├── feature_extraction.py
-│   ├── dimensionality_reduction.py
-│   └── classifiers.py
-├── notebooks/
-│   ├── data_exploration.ipynb
-│   ├── feature_extraction.ipynb
-│   ├── model_training.ipynb
-│   └── results_analysis.ipynb
-├── utils/
-│   ├── preprocessing.py
-│   └── visualization.py
-├── requirements.txt
-└── README.md
-```
-
-## 🚀 Installation & Usage
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/username/alzheimers-classification.git
-   cd alzheimers-classification
-   ```
-
-2. Install dependencies
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the feature extraction
-   ```bash
-   python models/feature_extraction.py
-   ```
-
-4. Train and evaluate models
-   ```bash
-   python train.py --model rf --features hypercolumn --reduction pca
-   ```
-
-5. Visualize results
-   ```bash
-   python visualize_results.py
-   ```
 
 ## 🙏 Acknowledgements
 
