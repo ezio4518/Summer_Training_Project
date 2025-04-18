@@ -23,6 +23,10 @@ The dataset is organized into separate directories for each class, with dedicate
 
 ## ⚙️ Methodology
 
+### **Architecture**
+![Architecture Diagram](https://i.ibb.co/kVdJnQd7/diagram-export-17-4-2025-11-55-56-pm.png)
+*Figure: Overview of the architecture used in the project.*
+
 Our approach involves a multi-stage pipeline:
 
 ### 1. Feature Extraction
